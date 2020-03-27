@@ -38,7 +38,15 @@ namespace CalculatorApp
             string newnumber = "0";
 
             currentNumber = outputLabel.Text;
-            newnumber = currentNumber + "1";
+
+            if (outputLabel.Text != "0")
+            {
+                newnumber = currentNumber + "1";
+            }
+            else
+            {
+                newnumber = "1";
+            }
 
             outputLabel.Text = newnumber;
             
@@ -62,7 +70,15 @@ namespace CalculatorApp
             string newnumber = "0";
 
             currentNumber = outputLabel.Text;
-            newnumber = currentNumber + "2";
+
+            if (outputLabel.Text != "0")
+            {
+                newnumber = currentNumber + "2";
+            }
+            else
+            {
+                newnumber = "2";
+            }
 
             outputLabel.Text = newnumber;
         }
@@ -85,7 +101,15 @@ namespace CalculatorApp
             string newnumber = "0";
 
             currentNumber = outputLabel.Text;
-            newnumber = currentNumber + "3";
+
+            if (outputLabel.Text != "0")
+            {
+                newnumber = currentNumber + "3";
+            }
+            else
+            {
+                newnumber = "3";
+            }
 
             outputLabel.Text = newnumber;
         }
@@ -108,7 +132,16 @@ namespace CalculatorApp
             string newnumber = "0";
 
             currentNumber = outputLabel.Text;
-            newnumber = currentNumber + "4";
+
+            if (outputLabel.Text != "0")
+            {
+                newnumber = currentNumber + "4";
+            }
+            else
+            {
+                newnumber = "4";
+            }
+
 
             outputLabel.Text = newnumber;
         }
@@ -131,7 +164,15 @@ namespace CalculatorApp
             string newnumber = "0";
 
             currentNumber = outputLabel.Text;
-            newnumber = currentNumber + "5";
+
+            if (outputLabel.Text != "0")
+            {
+                newnumber = currentNumber + "5";
+            }
+            else
+            {
+                newnumber = "5";
+            }
 
             outputLabel.Text = newnumber;
         }
@@ -154,7 +195,15 @@ namespace CalculatorApp
             string newnumber = "0";
 
             currentNumber = outputLabel.Text;
-            newnumber = currentNumber + "6";
+
+            if (outputLabel.Text != "0")
+            {
+                newnumber = currentNumber + "6";
+            }
+            else
+            {
+                newnumber = "6";
+            }
 
             outputLabel.Text = newnumber;
         }
@@ -177,7 +226,15 @@ namespace CalculatorApp
             string newnumber = "0";
 
             currentNumber = outputLabel.Text;
-            newnumber = currentNumber + "7";
+
+            if (outputLabel.Text != "0")
+            {
+                newnumber = currentNumber + "7";
+            }
+            else
+            {
+                newnumber = "7";
+            }
 
             outputLabel.Text = newnumber;
         }
@@ -200,7 +257,17 @@ namespace CalculatorApp
             string newnumber = "0";
 
             currentNumber = outputLabel.Text;
-            newnumber = currentNumber + "8";
+
+            if (outputLabel.Text != "0")
+            {
+                newnumber = currentNumber + "8";
+            }
+            else
+            {
+                newnumber = "8";
+            }
+
+
 
             outputLabel.Text = newnumber;
         }
@@ -223,7 +290,17 @@ namespace CalculatorApp
             string newnumber = "0";
 
             currentNumber = outputLabel.Text;
-            newnumber = currentNumber + "9";
+
+            if (outputLabel.Text != "0")
+            {
+                newnumber = currentNumber + "9";
+            }
+            else
+            {
+                newnumber = "9";
+            }
+
+
 
             outputLabel.Text = newnumber;
         }
@@ -248,6 +325,7 @@ namespace CalculatorApp
 
                 currentNumber = outputLabel.Text;
                 newnumber = currentNumber + "0";
+                
 
                 outputLabel.Text = newnumber;
             }
