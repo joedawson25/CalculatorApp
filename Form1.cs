@@ -231,7 +231,7 @@ namespace CalculatorApp
         {
             if (_operator != "")
             {
-                outputLabel.Text = "";
+                outputLabel.Text = "0";
                 _operator = "";
             }
 
@@ -241,7 +241,7 @@ namespace CalculatorApp
                 equalSignHit = false;
             }
 
-            if (outputLabel.Text != "")
+            if (outputLabel.Text != "0")
             {
                 string currentNumber = "0";
                 string newnumber = "0";
@@ -252,6 +252,7 @@ namespace CalculatorApp
                 outputLabel.Text = newnumber;
             }
         }
+        
         private void buttonDecimal_Click(object sender, EventArgs e)
         {
             if (_operator != "")
@@ -352,9 +353,8 @@ namespace CalculatorApp
         {
             outputLabel.Text = "0";
             _firstNumber = "";
-            _operator = "";
             OPERATOR = "";
-            equalSignHit = false;
+            
         }
     }
 }
